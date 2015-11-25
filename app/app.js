@@ -5,6 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.introView',
   'myApp.artistsView',
+  'myApp.directorsView',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
