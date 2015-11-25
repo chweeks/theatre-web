@@ -4,7 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.introView',
-  'myApp.view2',
+  'myApp.artistsView',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
