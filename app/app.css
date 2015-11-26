@@ -6,6 +6,10 @@ body {
   font-size: 14px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 #wall{
   background-size: cover;
   background-image: url(/app/assets/artists/wall.jpg);
@@ -91,6 +95,27 @@ body {
   background-color: #FFC604;
   color:black;
   text-align: center;
+}
+
+.menu{
+  height: 100vh;
+  position: absolute;
+  float:left;
+  width: 33vh;
+  background-color: #FFC700;
+}
+
+.menu-content{
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.indent{
+  margin-left: 10%;
+}
+
+.close{
+float: left;
 }
 
 #third{

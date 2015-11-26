@@ -4,6 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.introView',
+  'myApp.menuView',
   'myApp.artistsView',
   'myApp.directorsView',
   'myApp.filmsView',
