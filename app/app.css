@@ -75,3 +75,8 @@ body {
 .charcoalBackground{
   background-color: #332C27
 }
+
+.pinkBackground{
+  height:100vh;
+  background-color: #8D3161
+}
