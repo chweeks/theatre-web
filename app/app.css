@@ -39,3 +39,19 @@ body {
   align-items: center;
   height:33vh
 }
+
+.greenBackground{
+  background-color: #598A52
+}
+
+.tealBackground{
+  background-color: #00796D
+}
+
+.purpleBackground{
+  background-color: #434689
+}
+
+.charcoalBackground{
+  background-color: #332C27
+}
