@@ -12,7 +12,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+#connection{
+  background-size: cover;
+  background-image: url(/app/assets/films/connection.jpg);
+}
+
+#mayday{
+  background-size: cover;
+  background-image: url(/app/assets/films/mayday.jpg);
+}
+
+#the-departure{
+  background-size: cover;
+  background-image: url(/app/assets/films/the-departure.jpg);
+}
+
+#columbite-tantalite{
+  background-size: cover;
+  background-image: url(/app/assets/films/columbite-tantalite.jpg);
 }
 
 #whiteText {
@@ -25,6 +44,7 @@ body {
   top: 40px; /* Header Height */
   bottom: 20px; /* Footer Height */
   width: 100%;
+  float: left;
 }
 
 .artists{
