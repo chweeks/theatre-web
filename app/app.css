@@ -1,30 +1,41 @@
 /* app css stylesheet */
+@import url(https://fonts.googleapis.com/css?family=Roboto|Oswald);
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
-.menu:before {
-  content: "[";
+#wall{
+  background-size: cover;
+  background-image: url(/app/assets/artists/wall.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.menu:after {
-  content: "]";
+#whiteText {
+  color: white;
+  text-align: center;
 }
 
-.menu > li {
-  display: inline;
+.pane{
+  height:100vh;
+  top: 40px; /* Header Height */
+  bottom: 20px; /* Footer Height */
+  width: 100%;
 }
 
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+.artists{
+  background-color: #FFC604;
+  color:black;
+  text-align: center;
 }
 
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+#third{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:33vh
 }
