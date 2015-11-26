@@ -6,6 +6,7 @@ angular.module('myApp', [
   'myApp.introView',
   'myApp.artistsView',
   'myApp.directorsView',
+  'myApp.filmsView',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
