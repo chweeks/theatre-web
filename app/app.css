@@ -54,6 +54,21 @@ body {
   background-image: url(/app/assets/highlights/forever-young-gala.jpg);
 }
 
+#theatre{
+  background-size: cover;
+  background-image: url(/app/assets/intros/theatre.jpg);
+}
+
+#lucyWoollatt{
+  background-size: cover;
+  background-image: url(/app/assets/intros/lucyWoollatt.jpg);
+}
+
+#davidLan{
+  background-size: cover;
+  background-image: url(/app/assets/intros/davidLan.jpg);
+}
+
 #whiteText {
   color: white;
   text-align: center;
@@ -94,6 +109,7 @@ body {
 }
 
 .tealBackground{
+  height:100vh;
   background-color: #00796D
 }
 
@@ -108,4 +124,9 @@ body {
 .pinkBackground{
   height:100vh;
   background-color: #8D3161
+}
+
+.brownBackground{
+  height:100vh;
+  background-color: #7D6164
 }

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.prodhighlightsView', ['ngRoute'])
+angular.module('myApp.prodHighlightsView', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/prodHighlightsView', {
