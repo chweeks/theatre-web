@@ -73,6 +73,46 @@ h3 {
   background-image: url(/app/assets/intros/davidLan.jpg);
 }
 
+#aDollsHouse{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/a-dolls-house.jpg);
+}
+
+#aSeasonInTheCongo{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/a-season-in-the-congo.jpg);
+}
+
+#aStreetcarNameDesire{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/a-streetcar-named-desire.jpg);
+}
+
+#aViewFromTheBridge{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/a-view-from-the-bridge.jpg);
+}
+
+#golem{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/golem.jpg);
+}
+
+#happyDays{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/happy-days.jpg);
+}
+
+#theScottsboroBoys{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/the-scottsboro-boys.jpg);
+}
+
+#theValleyOfAstonishment{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights/the-valley-of-astonishment.jpg);
+}
+
 #whiteText {
   color: white;
   text-align: center;
@@ -127,6 +167,10 @@ float: left;
 
 .greenTrans{
   background-color: rgba(0, 119, 108, 0.5)
+}
+
+.pinkTrans{
+  background-color: rgba(153, 20, 65, 0.5)
 }
 
 .greenBackground{
