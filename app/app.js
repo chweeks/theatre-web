@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.directorsView',
   'myApp.filmsView',
   'myApp.financesView',
+  'myApp.highlightsView',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {

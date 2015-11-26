@@ -34,8 +34,33 @@ body {
   background-image: url(/app/assets/films/columbite-tantalite.jpg);
 }
 
+#avftb{
+  background-size: cover;
+  background-image: url(/app/assets/highlights/a-view-from-the-bridge.jpg);
+}
+
+#columbite-tantalite2{
+  background-size: cover;
+  background-image: url(/app/assets/highlights/columbite-tantalite.jpg);
+}
+
+#diversity{
+  background-size: cover;
+  background-image: url(/app/assets/highlights/diversity-in-theatre.jpg);
+}
+
+#foreverYoung{
+  background-size: cover;
+  background-image: url(/app/assets/highlights/forever-young-gala.jpg);
+}
+
 #whiteText {
   color: white;
+  text-align: center;
+}
+
+#yellowText {
+  color: #FFC700;
   text-align: center;
 }
 
@@ -58,6 +83,10 @@ body {
   justify-content: center;
   align-items: center;
   height:33vh
+}
+
+.greenTrans{
+  background-color: rgba(0, 119, 108, 0.5)
 }
 
 .greenBackground{
