@@ -13,6 +13,7 @@ angular.module('myApp', [
   'myApp.prodHighlightsView',
   'myApp.prodHighlightsTwoView',
   'myApp.supportersView',
+  'myApp.toursView',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {

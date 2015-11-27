@@ -149,6 +149,12 @@ h3 {
   background-image: url(/app/assets/prodhighlights2/trash-cuisine.jpg);
 }
 
+#map{
+  height: 100vh;  
+  background-size: cover;
+  background-image: url(/app/assets/tours/map.png);
+}
+
 #whiteText {
   color: white;
   text-align: center;
@@ -260,6 +266,10 @@ float: left;
   background-color: rgba(59, 64, 135, 0.8)
 }
 
+.blackBackground{
+  background-color: black;
+}
+
 .greenBackground{
   width: 100%;
   float:left;
@@ -291,7 +301,6 @@ float: left;
 }
 
 .brownBack{
-  height: 100%;
   width: 100%;
   float:left;
   clear:none;

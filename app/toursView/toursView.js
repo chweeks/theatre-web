@@ -4,7 +4,7 @@ angular.module('myApp.toursView', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/toursView', {
-    templateUrl: 'toursView/tourssView.html',
+    templateUrl: 'toursView/toursView.html',
     controller: 'ToursViewCtrl'
   });
 }])
