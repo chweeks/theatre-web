@@ -1,14 +1,14 @@
 'use strict';
 
-angular.module('myApp.supporterssView', ['ngRoute'])
+angular.module('myApp.supportersView', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/supporterssView', {
-    templateUrl: 'supporterssView/supporterssView.html',
-    controller: 'SupporterssViewCtrl'
+  $routeProvider.when('/supportersView', {
+    templateUrl: 'supportersView/supportersView.html',
+    controller: 'SupportersViewCtrl'
   });
 }])
 
-.controller('SupporterssViewCtrl', [function() {
+.controller('SupportersViewCtrl', [function() {
 
 }]);

@@ -18,6 +18,12 @@ h3 {
   align-items: center;
 }
 
+#wallBack{
+  background-size: cover;
+  background-image: url(/app/assets/artists/wall.jpg);
+  height: 82vh
+}
+
 #connection{
   background-size: cover;
   background-image: url(/app/assets/films/connection.jpg);
@@ -158,7 +164,19 @@ h3 {
   top: 40px; /* Header Height */
   bottom: 20px; /* Footer Height */
   width: 100%;
-  float: left;
+  float:left;
+}
+
+.paneEighty{
+  height:80vh;
+  top: 40px; /* Header Height */
+  bottom: 20px; /* Footer Height */
+  width: 100%;
+  float:left;
+  clear:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .artists{
@@ -195,6 +213,41 @@ float: left;
   height:33vh
 }
 
+.yellowBorder{
+  width: 100%;
+  float: left;
+  clear:none;
+  background-image: url(/app/assets/supporters/yellowBorder.png);
+}
+
+.brownBorder{
+  float:left;
+  clear:none;
+  width: 50%;
+  background-image: url(/app/assets/supporters/brownBorder.png);
+}
+
+.darkBrownBorder{
+  float:left;
+  clear:none;
+  width: 50%;
+  background-image: url(/app/assets/supporters/darkBrownBorder.png);
+}
+
+.redBorder{
+  float:left;
+  clear:none;
+  width: 100%;
+  background-image: url(/app/assets/supporters/redBorder.png);
+}
+
+.greenBorder{
+  float:left;
+  clear:none;
+  width: 100%;
+  background-image: url(/app/assets/supporters/greenBorder.png);
+}
+
 .greenTrans{
   background-color: rgba(0, 119, 108, 0.5)
 }
@@ -208,6 +261,9 @@ float: left;
 }
 
 .greenBackground{
+  width: 100%;
+  float:left;
+  clear:none;
   background-color: #598A52
 }
 
@@ -232,4 +288,34 @@ float: left;
 .brownBackground{
   height:100vh;
   background-color: #7D6164
+}
+
+.brownBack{
+  height: 100%;
+  width: 100%;
+  float:left;
+  clear:none;
+  background-color: #7D6164
+}
+
+.darkBrownBackground{
+  width: 100%;
+  float:left;
+  clear:none;
+  background-color: #684942
+}
+
+.redBackground{
+  width: 100%;
+  float:left;
+  clear:none;
+  background-color: #A51544
+}
+
+.yellowBackground{
+  text-align: center;
+  float:left;
+  clear:none;
+  width:100%;
+  background-color: #FFC700;
 }
