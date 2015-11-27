@@ -6,6 +6,10 @@ body {
   font-size: 14px;
 }
 
+h1 {
+  font-size: 100px;
+}
+
 h3 {
   font-size: 30px;
 }
@@ -150,7 +154,7 @@ h3 {
 }
 
 #map{
-  height: 100vh;  
+  height: 100vh;
   background-size: cover;
   background-image: url(/app/assets/tours/map.png);
 }
@@ -189,6 +193,22 @@ h3 {
   background-color: #FFC604;
   color:black;
   text-align: center;
+}
+
+.large{
+  font-size: 100px;
+}
+
+#border{
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+#borderBoth{
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
 }
 
 .menu{
