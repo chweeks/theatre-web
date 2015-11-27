@@ -3,7 +3,7 @@
 angular.module('myApp.prodHighlightsTwoView', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/filmsView', {
+  $routeProvider.when('/prodHighlightsTwoView', {
     templateUrl: 'prodHighlightsTwoView/prodHighlightsTwoView.html',
     controller: 'ProdHighlightsTwoViewCtrl'
   });

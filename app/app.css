@@ -113,6 +113,36 @@ h3 {
   background-image: url(/app/assets/prodhighlights/the-valley-of-astonishment.jpg);
 }
 
+#aHarlemDream{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights2/a-harlem-dream.jpg);
+}
+
+#bull{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights2/bull.jpg);
+}
+
+#myPerfectMind{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights2/my-perfect-mind.jpg);
+}
+
+#sizweBanziIsDead{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights2/sizwe-banzi-is-dead.jpg);
+}
+
+#theEvents{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights2/the-events.jpg);
+}
+
+#trashCuisine{
+  background-size: cover;
+  background-image: url(/app/assets/prodhighlights2/trash-cuisine.jpg);
+}
+
 #whiteText {
   color: white;
   text-align: center;
@@ -171,6 +201,10 @@ float: left;
 
 .pinkTrans{
   background-color: rgba(153, 20, 65, 0.5)
+}
+
+.blueTrans{
+  background-color: rgba(59, 64, 135, 0.8)
 }
 
 .greenBackground{
