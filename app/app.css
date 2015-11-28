@@ -291,7 +291,7 @@ float: left;
 }
 
 .greenBackground{
-  width: 100%;
+  width: 50%;
   float:left;
   clear:none;
   background-color: #598A52
@@ -321,21 +321,21 @@ float: left;
 }
 
 .brownBack{
-  width: 100%;
+  width: 50%%;
   float:left;
   clear:none;
   background-color: #7D6164
 }
 
 .darkBrownBackground{
-  width: 100%;
+  width: 50%;
   float:left;
   clear:none;
   background-color: #684942
 }
 
 .redBackground{
-  width: 100%;
+  width: 50%;
   float:left;
   clear:none;
   background-color: #A51544
