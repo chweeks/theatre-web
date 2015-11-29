@@ -17,9 +17,7 @@ h3 {
 #wall{
   background-size: cover;
   background-image: url(/app/assets/artists/wall.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh
 }
 
 #wallBack{
@@ -169,12 +167,24 @@ h3 {
   text-align: center;
 }
 
+#alignLeft{
+  text-align: left;
+}
+
+#alignRight{
+  text-align: right;
+}
+
 .pane{
   height:100vh;
   top: 40px; /* Header Height */
   bottom: 20px; /* Footer Height */
   width: 100%;
   float:left;
+  clear:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .paneEighty{
@@ -228,6 +238,15 @@ h3 {
   margin-left: 10%;
 }
 
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  text-align: left;
+}
+
 .close{
 float: left;
 }
@@ -274,6 +293,27 @@ float: left;
   background-image: url(/app/assets/supporters/greenBorder.png);
 }
 
+.darkGreenBorder{
+  float:left;
+  clear:none;
+  width: 100%;
+  background-image: url(/app/assets/directors/greenBorder.png);
+}
+
+.mudBrownBorder{
+  float:left;
+  clear:none;
+  width: 100%;
+  background-image: url(/app/assets/directors/brownBorder.png);
+}
+
+.purpleBorder{
+  float:left;
+  clear:none;
+  width: 100%;
+  background-image: url(/app/assets/directors/blueBorder.png);
+}
+
 .greenTrans{
   background-color: rgba(0, 119, 108, 0.5)
 }
@@ -290,6 +330,13 @@ float: left;
   background-color: black;
 }
 
+.greenFullBackground{
+  width: 100%;
+  float:left;
+  clear:none;
+  background-color: #598A52
+}
+
 .greenBackground{
   width: 50%;
   float:left;
@@ -298,15 +345,23 @@ float: left;
 }
 
 .tealBackground{
-  height:100vh;
+  width: 100%;
+  float:left;
+  clear:none;
   background-color: #00796D
 }
 
 .purpleBackground{
+  float:left;
+  clear:none;
+  width: 100%;
   background-color: #434689
 }
 
 .charcoalBackground{
+  float:left;
+  clear:none;
+  width: 100%;
   background-color: #332C27
 }
 
