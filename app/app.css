@@ -319,6 +319,13 @@ float: left;
   background-image: url(/app/assets/directors/blueBorder.png);
 }
 
+.pinkBorder{
+  float:left;
+  clear:none;
+  width: 100%;
+  background-image: url(/app/assets/finances/pinkBorder.png);
+}
+
 .greenTrans{
   background-color: rgba(0, 119, 108, 0.5)
 }
