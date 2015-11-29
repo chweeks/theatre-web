@@ -10,6 +10,10 @@ h1 {
   font-size: 100px;
 }
 
+h2 {
+  font-size: 60px;
+}
+
 h3 {
   font-size: 30px;
 }
@@ -160,6 +164,7 @@ h3 {
 #whiteText {
   color: white;
   text-align: center;
+  width: 100%
 }
 
 #yellowText {
